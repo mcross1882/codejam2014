@@ -1,0 +1,48 @@
+## Perfect Scenario
+
+### Build initial lists..
+
+01 10
+10 01
+
+### Remove any completed circuits (Removed 01 10)...
+
+..
+
+### Count number of switches...
+
+0 < L Possible
+
+## Near-Perfect Scenario
+
+### Build initial lists..
+
+01 11 10 
+11 00 10
+
+### Remove any completed circuits (Removed 11 10)...
+
+01
+00
+
+### Count number of switches...
+
+1 < L Possible
+
+### Result = 1
+
+## Not possible scenario
+
+### Build initial lists..
+
+101 111
+010 001
+
+### Remove any completed circuits (Removed none)..
+
+101 111
+010 001
+
+### Count number of switches...
+
+3 > L NOT Possible
